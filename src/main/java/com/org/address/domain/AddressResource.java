@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/address")
 public class AddressResource {
-	
+
 	@GetMapping(value = "/{empId}")
 	public Address getEmployeeDetails(@PathVariable int empId) {
 
@@ -25,6 +25,7 @@ public class AddressResource {
 		}
 		return addressReturn;
 	}
+//Added by Satheesh Chepuri
 
 	public List<Address> getAllAddresses() {
 		List<Address> addressList = new ArrayList<Address>();

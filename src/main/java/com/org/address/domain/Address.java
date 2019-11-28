@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Address implements Serializable{
 
 	/**
-	 * 
+	 * Added by Satheesh Chepuri
 	 */
 	private static final long serialVersionUID = -1772727578224763785L;
 	
